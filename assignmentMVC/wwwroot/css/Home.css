@@ -1,0 +1,155 @@
+﻿body {
+    background-image: url('../newfolder/download.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+nav {
+    background-color: transparent;
+    font-size: 20px;
+}
+.navbar{
+    display: inherit;
+    background-color: fuchsia;
+    color: white;
+    text-decoration: none;
+   text-align:center;
+    border-radius: 14px;
+   
+}
+
+    .navbar:hover {
+        background-color: indigo;
+        color: white;
+        border: 1px solid black;
+       
+    }
+
+    button {
+        display: inline-block;
+        background-color: fuchsia;
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 14px;
+        justify-items: center
+    }
+
+    button:hover {
+        background-color: indigo;
+        color: white;
+        border: 1px solid black;
+        justify-items: center
+    }
+h1 {
+    font-size: 60PX;
+    text-align: center;
+    font-family: monospace;
+    color: blueviolet;
+}
+
+.MAIN {
+    text-align: center;
+    font-family: monospace;
+    color: crimson;
+}
+
+
+
+h2 {
+    font-style: initial;
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+}
+h3 {
+    font-style: initial;
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+}
+    p {
+    
+    color:ghostwhite ;
+    font-size: 30px;
+    text-align: center
+}
+
+p {
+    text-align: right;
+    color: ghostwhite;
+    font-size: 30px;
+    text-align: center
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    left: 0;
+    font-size: small;
+    color: black;
+}
+
+
+
+
+
+.craftwork li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 8px;
+    color: azure;
+}
+
+article.featured {
+    background-color: ghostwhite;
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+    border-bottom: 4px solid #bbc7c7;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+    article img, article.featured img {
+        width: 50%;
+        border: 4px solid #fff;
+        border-radius: 8px;
+    }
+
+article p, article h3 {
+    margin: 0px 10px;
+    color: azure;
+    text-align: center;
+}
+
+/*
+Responsive
+*/
+@media screen and (max-width:980px) {
+
+    article {
+        grid-column: span 4;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    @media screen and (max-width:760px) {
+
+        article, article.featured {
+            display: block;
+            margin: 0 20px;
+        }
+    }
+}
+

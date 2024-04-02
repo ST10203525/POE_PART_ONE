@@ -1,0 +1,55 @@
+﻿
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+h1,h2{
+    color:antiquewhite;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: bisque;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: bisque;
+}
+
+    .input-group textarea {
+        height: 150px;
+    }
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .submit-btn:hover {
+        background-color: #0056b3;
+    }
+
+body {
+    background-image: url('../newfolder/download.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
